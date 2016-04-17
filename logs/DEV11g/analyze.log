@@ -1,0 +1,1963 @@
+10:32:10 SQL> 
+10:32:10 SQL> analyze cluster "C_COBJ#" validate structure cascade;
+Elapsed: 00:00:00.69
+10:32:10 SQL> analyze cluster "C_FILE#_BLOCK#" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:10 SQL> analyze cluster "C_MLOG#" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:10 SQL> analyze cluster "C_OBJ#" validate structure cascade;
+Elapsed: 00:00:01.76
+10:32:12 SQL> analyze cluster "C_OBJ#_INTCOL#" validate structure cascade;
+Elapsed: 00:00:01.10
+10:32:13 SQL> analyze cluster "C_RG#" validate structure cascade;
+Elapsed: 00:00:00.59
+10:32:14 SQL> analyze cluster "C_TOID_VERSION#" validate structure cascade;
+Elapsed: 00:00:01.07
+10:32:15 SQL> analyze cluster "C_TS#" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:15 SQL> analyze cluster "C_USER#" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:15 SQL> analyze cluster "SMON_SCN_TO_TIME_AUX" validate structure cascade;
+Elapsed: 00:00:00.12
+10:32:15 SQL> analyze table "ACCESS$" validate structure cascade;
+Elapsed: 00:00:01.01
+10:32:16 SQL> analyze table "ALERT_QT" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:16 SQL> analyze table "APPLY$_CHANGE_HANDLERS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:16 SQL> analyze table "APPLY$_CONF_HDLR_COLUMNS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "APPLY$_CONSTRAINT_COLUMNS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "APPLY$_DEST_OBJ" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:16 SQL> analyze table "APPLY$_DEST_OBJ_CMAP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "APPLY$_DEST_OBJ_OPS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "APPLY$_ERROR" validate structure cascade;
+Elapsed: 00:00:00.08
+10:32:16 SQL> analyze table "APPLY$_ERROR_HANDLER" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:16 SQL> analyze table "APPLY$_ERROR_TXN" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:16 SQL> analyze table "APPLY$_SOURCE_OBJ" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:16 SQL> analyze table "APPLY$_SOURCE_SCHEMA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "APPLY$_VIRTUAL_OBJ_CONS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:16 SQL> analyze table "APPROLE$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:16 SQL> analyze table "AQ$_ALERT_QT_G" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "AQ$_ALERT_QT_H" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:16 SQL> analyze table "AQ$_ALERT_QT_I" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "AQ$_ALERT_QT_L" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:16 SQL> analyze table "AQ$_ALERT_QT_S" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "AQ$_ALERT_QT_T" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:16 SQL> analyze table "AQ$_AQ$_MEM_MC_G" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:16 SQL> analyze table "AQ$_AQ$_MEM_MC_H" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:16 SQL> analyze table "AQ$_AQ$_MEM_MC_I" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:16 SQL> analyze table "AQ$_AQ$_MEM_MC_L" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "AQ$_AQ$_MEM_MC_S" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "AQ$_AQ$_MEM_MC_T" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:16 SQL> analyze table "AQ$_AQ_PROP_TABLE_G" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:16 SQL> analyze table "AQ$_AQ_PROP_TABLE_H" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:16 SQL> analyze table "AQ$_AQ_PROP_TABLE_I" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "AQ$_AQ_PROP_TABLE_L" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:16 SQL> analyze table "AQ$_AQ_PROP_TABLE_S" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_AQ_PROP_TABLE_T" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_1_D" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_1_G" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_1_H" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_1_I" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_1_L" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_1_P" validate structure cascade;
+Elapsed: 00:00:00.09
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_1_S" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_1_T" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_G" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_H" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_I" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_L" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_S" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_KUPC$DATAPUMP_QUETAB_T" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_MEM_MC" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_MESSAGE_TYPES" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:17 SQL> analyze table "AQ$_PENDING_MESSAGES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_PROPAGATION_STATUS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_PUBLISHER" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_QUEUE_STATISTICS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_QUEUE_TABLE_AFFINITIES" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:17 SQL> analyze table "AQ$_REPLAY_INFO" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_EVENT_QTAB_G" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_EVENT_QTAB_H" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_EVENT_QTAB_I" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_EVENT_QTAB_L" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_EVENT_QTAB_S" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_EVENT_QTAB_T" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_REMDB_JOBQTAB_G" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_REMDB_JOBQTAB_H" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_REMDB_JOBQTAB_I" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_REMDB_JOBQTAB_L" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_REMDB_JOBQTAB_S" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_SCHEDULER$_REMDB_JOBQTAB_T" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_SCHEDULER_FILEWATCHER_QT_G" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_SCHEDULER_FILEWATCHER_QT_H" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_SCHEDULER_FILEWATCHER_QT_I" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:17 SQL> analyze table "AQ$_SCHEDULER_FILEWATCHER_QT_L" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_SCHEDULER_FILEWATCHER_QT_S" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_SCHEDULER_FILEWATCHER_QT_T" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_SCHEDULES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_SUBSCRIBER_TABLE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_SYS$SERVICE_METRICS_TAB_G" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:17 SQL> analyze table "AQ$_SYS$SERVICE_METRICS_TAB_H" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_SYS$SERVICE_METRICS_TAB_I" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ$_SYS$SERVICE_METRICS_TAB_L" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ$_SYS$SERVICE_METRICS_TAB_S" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:17 SQL> analyze table "AQ$_SYS$SERVICE_METRICS_TAB_T" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "AQ_EVENT_TABLE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:17 SQL> analyze table "AQ_PROP_TABLE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:17 SQL> analyze table "ARGUMENT$" validate structure cascade;
+Elapsed: 00:00:02.24
+10:32:20 SQL> analyze table "ASSEMBLY$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "ASSOCIATION$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:20 SQL> analyze table "ATEMPTAB$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "ATTRCOL$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:20 SQL> analyze table "ATTRIBUTE$" validate structure cascade;
+Elapsed: 00:00:00.08
+10:32:20 SQL> analyze table "ATTRIBUTE_TRANSFORMATIONS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:20 SQL> analyze table "AUD$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:20 SQL> analyze table "AUDIT$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:20 SQL> analyze table "AUDIT_ACTIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:20 SQL> analyze table "AUX_STATS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:20 SQL> analyze table "AW$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:20 SQL> analyze table "AW$AWCREATE" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:20 SQL> analyze table "AW$AWCREATE10G" validate structure cascade;
+Elapsed: 00:00:00.06
+10:32:20 SQL> analyze table "AW$AWMD" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "AW$AWREPORT" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:20 SQL> analyze table "AW$AWXML" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "AW$EXPRESS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "AW_OBJ$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:20 SQL> analyze table "AW_PRG$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:20 SQL> analyze table "AW_PROP$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:20 SQL> analyze table "AW_TRACK$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "BOOTSTRAP$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:20 SQL> analyze table "CACHE_STATS_0$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "CACHE_STATS_1$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:20 SQL> analyze table "CCOL$" validate structure cascade;
+Elapsed: 00:00:00.07
+10:32:20 SQL> analyze table "CDC_CHANGE_COLUMNS$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:20 SQL> analyze table "CDC_CHANGE_SETS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:20 SQL> analyze table "CDC_CHANGE_SOURCES$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "CDC_CHANGE_TABLES$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "CDC_PROPAGATED_SETS$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:20 SQL> analyze table "CDC_PROPAGATIONS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "CDC_SUBSCRIBED_COLUMNS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:20 SQL> analyze table "CDC_SUBSCRIBED_TABLES$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "CDC_SUBSCRIBERS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:20 SQL> analyze table "CDC_SYSTEM$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:20 SQL> analyze table "CDEF$" validate structure cascade;
+Elapsed: 00:00:00.10
+10:32:20 SQL> analyze table "CHNF$_CLAUSES" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:20 SQL> analyze table "CHNF$_CLAUSE_DEPENDENTS" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:21 SQL> analyze table "CHNF$_GROUP_FILTER_IOT" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:21 SQL> analyze table "CHNF$_QUERIES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:21 SQL> analyze table "CHNF$_QUERY_BINDS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:21 SQL> analyze table "CHNF$_QUERY_DELTAS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:21 SQL> analyze table "CHNF$_QUERY_DEPENDENCIES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:21 SQL> analyze table "CHNF$_QUERY_OBJECT" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:21 SQL> analyze table "CHNF$_REG_QUERIES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:21 SQL> analyze table "CHNFDIRECTLOAD$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:21 SQL> analyze table "CLU$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:21 SQL> analyze table "CLUSTER_DATABASES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:21 SQL> analyze table "CLUSTER_INSTANCES" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:21 SQL> analyze table "CLUSTER_NODES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:21 SQL> analyze table "COL$" validate structure cascade;
+Elapsed: 00:00:00.69
+10:32:21 SQL> analyze table "COLLECTION$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:21 SQL> analyze table "COLTYPE$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:21 SQL> analyze table "COL_GROUP_USAGE$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:21 SQL> analyze table "COL_USAGE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:21 SQL> analyze table "COM$" validate structure cascade;
+Elapsed: 00:00:00.35
+10:32:22 SQL> analyze table "COMPARISON$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:22 SQL> analyze table "COMPARISON_COL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "COMPARISON_ROW_DIF$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "COMPARISON_SCAN$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:22 SQL> analyze table "COMPARISON_SCAN_VAL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "COMPRESSION$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:22 SQL> analyze table "CON$" validate structure cascade;
+Elapsed: 00:00:00.22
+10:32:22 SQL> analyze table "CONTEXT$" validate structure cascade;
+Elapsed: 00:00:00.11
+10:32:22 SQL> analyze table "CPOOL$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:22 SQL> analyze table "CRC$_RESULT_CACHE_STATS" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:22 SQL> analyze table "DAM_CLEANUP_EVENTS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DAM_CLEANUP_JOBS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DAM_CONFIG_PARAM$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DAM_LAST_ARCH_TS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DAM_PARAM_TAB$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DBA_TYPE_XMLSCHEMA_DEP_TBL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:22 SQL> analyze table "DBA_XML_SCHEMA_DEPENDENCY_TBL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:22 SQL> analyze table "DBFS$_MOUNTS" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:22 SQL> analyze table "DBFS$_STATS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DBFS$_STORES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:22 SQL> analyze table "DBFS_HS$_BACKUPFILETABLE" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:22 SQL> analyze table "DBFS_HS$_CONTENTFNMAPTBL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DBFS_HS$_FS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DBFS_HS$_PROPERTY" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:22 SQL> analyze table "DBFS_HS$_SFLOCATORTABLE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:22 SQL> analyze table "DBFS_HS$_STORECOMMANDS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:23 SQL> analyze table "DBFS_HS$_STOREID2POLICYCTX" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:23 SQL> analyze table "DBFS_HS$_STOREIDTABLE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:23 SQL> analyze table "DBFS_HS$_STOREPROPERTIES" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:23 SQL> analyze table "DBFS_SFS$_FS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:23 SQL> analyze table "DBFS_SFS$_FST" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:23 SQL> analyze table "DBFS_SFS$_FSTO" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:23 SQL> analyze table "DBFS_SFS$_FSTP" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:23 SQL> analyze table "DBFS_SFS$_SNAP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:23 SQL> analyze table "DBFS_SFS$_TAB" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:23 SQL> analyze table "DBFS_SFS$_VOL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:23 SQL> analyze table "DBMS_ALERT_INFO" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:23 SQL> analyze table "DBMS_LOCK_ALLOCATED" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:23 SQL> analyze table "DBMS_PARALLEL_EXECUTE_CHUNKS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:23 SQL> analyze table "DBMS_PARALLEL_EXECUTE_TASK$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:23 SQL> analyze table "DEFAULT_PWD$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:23 SQL> analyze table "DEFERRED_STG$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:23 SQL> analyze table "DEFROLE$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:23 SQL> analyze table "DEFSUBPART$" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:23 SQL> analyze table "DEFSUBPARTLOB$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:23 SQL> analyze table "DEPENDENCY$" validate structure cascade;
+Elapsed: 00:00:02.04
+10:32:25 SQL> analyze table "DIANA_VERSION$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:25 SQL> analyze table "DIM$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DIMATTR$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:25 SQL> analyze table "DIMJOINKEY$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:25 SQL> analyze table "DIMLEVEL$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:25 SQL> analyze table "DIMLEVELKEY$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:25 SQL> analyze table "DIR$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DIR$ALERT_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:25 SQL> analyze table "DIR$DATABASE_ATTRIBUTES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DIR$ESCALATE_OPERATIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DIR$INSTANCE_ACTIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DIR$MIGRATE_OPERATIONS" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:25 SQL> analyze table "DIR$NODE_ATTRIBUTES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:25 SQL> analyze table "DIR$QUIESCE_OPERATIONS" validate structure cascade;
+Elapsed: 00:00:00.09
+10:32:25 SQL> analyze table "DIR$REASON_STRINGS" validate structure cascade;
+Elapsed: 00:00:00.15
+10:32:25 SQL> analyze table "DIR$RESONATE_OPERATIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DIR$SERVICE_ATTRIBUTES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DIR$SERVICE_OPERATIONS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:25 SQL> analyze table "DIR$VICTIM_POLICY" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DST$AFFECTED_TABLES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DST$ERROR_TABLE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:25 SQL> analyze table "DST$TRIGGER_TABLE" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:25 SQL> analyze table "DUAL" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:26 SQL> analyze table "DUC$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "ECOL$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:26 SQL> analyze table "EDITION$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "ENC$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:26 SQL> analyze table "EPG$_AUTH" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "ERROR$" validate structure cascade;
+Elapsed: 00:00:00.07
+10:32:26 SQL> analyze table "EV$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "EVCOL$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:26 SQL> analyze table "EXPACT$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "EXPDEPACT$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:26 SQL> analyze table "EXPDEPOBJ$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "EXPIMP_TTS_CT$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:26 SQL> analyze table "EXPPKGACT$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "EXPPKGOBJ$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "EXTERNAL_LOCATION$" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:26 SQL> analyze table "EXTERNAL_TAB$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:26 SQL> analyze table "FET$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:26 SQL> analyze table "FGA$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:26 SQL> analyze table "FGACOL$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:26 SQL> analyze table "FGR$_FILE_GROUPS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:26 SQL> analyze table "FGR$_FILE_GROUP_EXPORT_INFO" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:26 SQL> analyze table "FGR$_FILE_GROUP_FILES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "FGR$_FILE_GROUP_VERSIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:26 SQL> analyze table "FGR$_TABLESPACE_INFO" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:26 SQL> analyze table "FGR$_TABLE_INFO" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:26 SQL> analyze table "FILE$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:26 SQL> analyze table "FINALHIST$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "FIXED_OBJ$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "GOLDENGATE$_PRIVILEGES" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:26 SQL> analyze table "HIER$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "HIERLEVEL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:26 SQL> analyze table "HISTGRM$" validate structure cascade;
+Elapsed: 00:00:00.17
+10:32:26 SQL> analyze table "HIST_HEAD$" validate structure cascade;
+Elapsed: 00:00:00.51
+10:32:27 SQL> analyze table "HS$_BASE_CAPS" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:27 SQL> analyze table "HS$_BASE_DD" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:27 SQL> analyze table "HS$_CLASS_CAPS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:27 SQL> analyze table "HS$_CLASS_DD" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:27 SQL> analyze table "HS$_CLASS_INIT" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:27 SQL> analyze table "HS$_FDS_CLASS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:27 SQL> analyze table "HS$_FDS_CLASS_DATE" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:27 SQL> analyze table "HS$_FDS_INST" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:27 SQL> analyze table "HS$_INST_CAPS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:27 SQL> analyze table "HS$_INST_DD" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:27 SQL> analyze table "HS$_INST_INIT" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:27 SQL> analyze table "HS$_PARALLEL_HISTOGRAM_DATA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:27 SQL> analyze table "HS$_PARALLEL_METADATA" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:27 SQL> analyze table "HS$_PARALLEL_PARTITION_DATA" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:27 SQL> analyze table "HS$_PARALLEL_SAMPLE_DATA" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:27 SQL> analyze table "HS_BULKLOAD_VIEW_OBJ" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:27 SQL> analyze table "HS_PARTITION_COL_NAME" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:27 SQL> analyze table "HS_PARTITION_COL_TYPE" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:27 SQL> analyze table "ICOL$" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:27 SQL> analyze table "ICOLDEP$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:27 SQL> analyze table "IDL_CHAR$" validate structure cascade;
+Elapsed: 00:00:00.69
+10:32:28 SQL> analyze table "IDL_SB4$" validate structure cascade;
+Elapsed: 00:00:00.59
+10:32:29 SQL> analyze table "IDL_UB1$" validate structure cascade;
+Elapsed: 00:00:05.93
+10:32:34 SQL> analyze table "IDL_UB2$" validate structure cascade;
+Elapsed: 00:00:01.15
+10:32:36 SQL> analyze table "ID_GENS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:36 SQL> analyze table "IMPCALLOUTREG$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:36 SQL> analyze table "IMPDP_STATS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:36 SQL> analyze table "INCEXP" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:36 SQL> analyze table "INCFIL" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:36 SQL> analyze table "INCVID" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:36 SQL> analyze table "IND$" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:36 SQL> analyze table "INDARRAYTYPE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:36 SQL> analyze table "INDCOMPART$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:36 SQL> analyze table "INDOP$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:36 SQL> analyze table "INDPART$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:36 SQL> analyze table "INDPART_PARAM$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:36 SQL> analyze table "INDREBUILD$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:36 SQL> analyze table "INDSUBPART$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:36 SQL> analyze table "INDTYPES$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:36 SQL> analyze table "IND_ONLINE$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:36 SQL> analyze table "IND_STATS$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:36 SQL> analyze table "INSERT_TSN_LIST$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:36 SQL> analyze table "INVALIDATION_REGISTRY$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:36 SQL> analyze table "INVALID_ROWS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:36 SQL> analyze table "JAVA$COMPILER$OPTIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:36 SQL> analyze table "JAVA$JVM$RJBC" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:36 SQL> analyze table "JAVA$JVM$RUNTIME$PARAMETERS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:36 SQL> analyze table "JAVA$JVM$STATUS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:36 SQL> analyze table "JAVA$JVM$STEPS$DONE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:36 SQL> analyze table "JAVA$MC$" validate structure cascade;
+Elapsed: 00:00:00.52
+10:32:37 SQL> analyze table "JAVA$MC$DEPS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "JAVA$METHOD$METADATA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "JAVA$POLICY$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:37 SQL> analyze table "JAVA$POLICY$SHARED$TABLE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "JAVA$PREFS$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:37 SQL> analyze table "JAVA$RMJVM$AUX" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "JAVA$RMJVM$AUX2" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "JAVA$RMJVM$AUX3" validate structure cascade;
+Elapsed: 00:00:00.10
+10:32:37 SQL> analyze table "JAVA$RUNTIME$EXEC$USER$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "JAVAJAR$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "JAVAJAROBJECTS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "JAVANEGDEPS$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:37 SQL> analyze table "JAVAOBJ$" validate structure cascade;
+Elapsed: 00:00:00.25
+10:32:37 SQL> analyze table "JAVASNM$" validate structure cascade;
+Elapsed: 00:00:00.11
+10:32:37 SQL> analyze table "JIJOIN$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:37 SQL> analyze table "JIREFRESHSQL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "JOB$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "KET$_AUTOTASK_STATUS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:37 SQL> analyze table "KET$_CLIENT_CONFIG" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "KET$_CLIENT_TASKS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "KOPM$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:37 SQL> analyze table "KU$NOEXP_TAB" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "KU$_DATAPUMP_MASTER_10_1" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "KU$_DATAPUMP_MASTER_11_1" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "KU$_DATAPUMP_MASTER_11_1_0_7" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "KU$_DATAPUMP_MASTER_11_2" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "KU$_LIST_FILTER_TEMP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:37 SQL> analyze table "KU$_LIST_FILTER_TEMP_2" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:37 SQL> analyze table "KU$_USER_MAPPING_VIEW_TBL" validate structure cascade;
+Elapsed: 00:00:00.09
+10:32:37 SQL> analyze table "KUPC$DATAPUMP_QUETAB" validate structure cascade;
+Elapsed: 00:00:00.12
+10:32:38 SQL> analyze table "KUPC$DATAPUMP_QUETAB_1" validate structure cascade;
+Elapsed: 00:00:00.17
+10:32:38 SQL> analyze table "KU_NOEXP_TAB" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:38 SQL> analyze table "KU_UTLUSE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LIBRARY$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LINK$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:38 SQL> analyze table "LOB$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:38 SQL> analyze table "LOBCOMPPART$" validate structure cascade;
+Elapsed: 00:00:00.07
+10:32:38 SQL> analyze table "LOBFRAG$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:38 SQL> analyze table "LOC$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOG$" validate structure cascade;
+Elapsed: 00:00:00.06
+10:32:38 SQL> analyze table "LOGMNRG_ATTRCOL$" validate structure cascade;
+Elapsed: 00:00:00.06
+10:32:38 SQL> analyze table "LOGMNRG_ATTRIBUTE$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:38 SQL> analyze table "LOGMNRG_CCOL$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:38 SQL> analyze table "LOGMNRG_CDEF$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:38 SQL> analyze table "LOGMNRG_COL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_COLTYPE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_DICTIONARY$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:38 SQL> analyze table "LOGMNRG_ENC$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_ICOL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_IND$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_INDCOMPART$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_INDPART$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_INDSUBPART$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:38 SQL> analyze table "LOGMNRG_KOPM$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_LOB$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:38 SQL> analyze table "LOGMNRG_LOBFRAG$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_LOGMNR_BUILDLOG" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_NTAB$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_OBJ$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_OPQTYPE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:38 SQL> analyze table "LOGMNRG_PARTOBJ$" validate structure cascade;
+Elapsed: 00:00:00.06
+10:32:38 SQL> analyze table "LOGMNRG_PROPS$" validate structure cascade;
+Elapsed: 00:00:00.43
+10:32:39 SQL> analyze table "LOGMNRG_REFCON$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:39 SQL> analyze table "LOGMNRG_SEED$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:39 SQL> analyze table "LOGMNRG_SUBCOLTYPE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:39 SQL> analyze table "LOGMNRG_TAB$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:39 SQL> analyze table "LOGMNRG_TABCOMPART$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:39 SQL> analyze table "LOGMNRG_TABPART$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:39 SQL> analyze table "LOGMNRG_TABSUBPART$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:39 SQL> analyze table "LOGMNRG_TS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:39 SQL> analyze table "LOGMNRG_TYPE$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:39 SQL> analyze table "LOGMNRG_USER$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:39 SQL> analyze table "LOGMNR_BUILDLOG" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:39 SQL> analyze table "MAP_COMPLIST$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:39 SQL> analyze table "MAP_ELEMENT$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:39 SQL> analyze table "MAP_EXTELEMENT$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:39 SQL> analyze table "MAP_FILE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:39 SQL> analyze table "MAP_FILE_EXTENT$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:39 SQL> analyze table "MAP_OBJECT" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:39 SQL> analyze table "MAP_SUBELEMENT$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:39 SQL> analyze table "METAFILTER$" validate structure cascade;
+Elapsed: 00:00:00.28
+10:32:39 SQL> analyze table "METANAMETRANS$" validate structure cascade;
+Elapsed: 00:00:00.15
+10:32:39 SQL> analyze table "METAPATHMAP$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:39 SQL> analyze table "METASCRIPT$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:39 SQL> analyze table "METASCRIPTFILTER$" validate structure cascade;
+Elapsed: 00:00:00.14
+10:32:40 SQL> analyze table "METASTYLESHEET" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:40 SQL> analyze table "METAVIEW$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:40 SQL> analyze table "METAXSL$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:40 SQL> analyze table "METAXSLPARAM$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:40 SQL> analyze table "METHOD$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:40 SQL> analyze table "MIGRATE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:40 SQL> analyze table "MLOG$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:40 SQL> analyze table "MLOG_REFCOL$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:40 SQL> analyze table "MODEL$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:40 SQL> analyze table "MODELATT$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:40 SQL> analyze table "MODELSET$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:40 SQL> analyze table "MODELTAB$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:40 SQL> analyze table "MON_MODS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:40 SQL> analyze table "MON_MODS_ALL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:40 SQL> analyze table "NCOMP_DLL$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:40 SQL> analyze table "NET$_ACL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:40 SQL> analyze table "NOEXP$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:40 SQL> analyze table "NTAB$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:40 SQL> analyze table "OBJ$" validate structure cascade;
+Elapsed: 00:00:02.42
+10:32:42 SQL> analyze table "OBJAUTH$" validate structure cascade;
+Elapsed: 00:00:00.61
+10:32:43 SQL> analyze table "OBJECT_USAGE" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:43 SQL> analyze table "OBJERROR$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:43 SQL> analyze table "OBJPRIV$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:43 SQL> analyze table "ODCI_PMO_ROWIDS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:43 SQL> analyze table "ODCI_SECOBJ$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "ODCI_WARNINGS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:43 SQL> analyze table "OID$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:43 SQL> analyze table "OLAPTABLEVELS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAPTABLEVELTUPLES" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:43 SQL> analyze table "OLAP_ATTRIBUTES$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:43 SQL> analyze table "OLAP_ATTRIBUTE_VISIBILITY$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:43 SQL> analyze table "OLAP_AW_DEPLOYMENT_CONTROLS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_AW_VIEWS$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:43 SQL> analyze table "OLAP_AW_VIEW_COLUMNS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_CALCULATED_MEMBERS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_CUBES$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_CUBE_BUILD_PROCESSES$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_CUBE_DIMENSIONS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:43 SQL> analyze table "OLAP_DESCRIPTIONS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:43 SQL> analyze table "OLAP_DIMENSIONALITY$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:43 SQL> analyze table "OLAP_DIM_LEVELS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_HIERARCHIES$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_HIER_LEVELS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_IMPL_OPTIONS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_MAPPINGS$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:43 SQL> analyze table "OLAP_MEASURES$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:43 SQL> analyze table "OLAP_MEASURE_FOLDERS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_MEAS_FOLDER_CONTENTS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:43 SQL> analyze table "OLAP_MODELS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_MODEL_ASSIGNMENTS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:43 SQL> analyze table "OLAP_MODEL_PARENTS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_MULTI_OPTIONS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:43 SQL> analyze table "OLAP_SYNTAX$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_TAB$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:43 SQL> analyze table "OLAP_TAB_COL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OLAP_TAB_HIER$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:43 SQL> analyze table "OPANCILLARY$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:43 SQL> analyze table "OPARG$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:43 SQL> analyze table "OPBINDING$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OPERATOR$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "OPQTYPE$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:43 SQL> analyze table "OPTSTAT_HIST_CONTROL$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:43 SQL> analyze table "OPTSTAT_USER_PREFS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:43 SQL> analyze table "PARAMETER$" validate structure cascade;
+Elapsed: 00:00:00.12
+10:32:44 SQL> analyze table "PARTCOL$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:44 SQL> analyze table "PARTLOB$" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:44 SQL> analyze table "PARTOBJ$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:44 SQL> analyze table "PENDING_SESSIONS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:44 SQL> analyze table "PENDING_SUB_SESSIONS$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:44 SQL> analyze table "PENDING_TRANS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:44 SQL> analyze table "PLAN_TABLE$" validate structure cascade;
+Elapsed: 00:00:00.11
+10:32:44 SQL> analyze table "PLSCOPE_ACTION$" validate structure cascade;
+Elapsed: 00:00:00.13
+10:32:44 SQL> analyze table "PLSCOPE_IDENTIFIER$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:44 SQL> analyze table "PROCEDURE$" validate structure cascade;
+Elapsed: 00:00:00.06
+10:32:44 SQL> analyze table "PROCEDUREC$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:44 SQL> analyze table "PROCEDUREINFO$" validate structure cascade;
+Elapsed: 00:00:00.39
+10:32:44 SQL> analyze table "PROCEDUREJAVA$" validate structure cascade;
+Elapsed: 00:00:00.07
+10:32:45 SQL> analyze table "PROCEDUREPLSQL$" validate structure cascade;
+Elapsed: 00:00:00.08
+10:32:45 SQL> analyze table "PROFILE$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "PROFNAME$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "PROPS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "PROXY_DATA$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:45 SQL> analyze table "PROXY_INFO$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "PROXY_ROLE_DATA$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "PROXY_ROLE_INFO$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "PS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "PSTUBTBL" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RECENT_RESOURCE_INCARNATIONS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RECO_SCRIPT$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "RECO_SCRIPT_BLOCK$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RECO_SCRIPT_ERROR$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "RECO_SCRIPT_PARAMS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RECYCLEBIN$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:45 SQL> analyze table "REC_TAB$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "REC_VAR$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "REDEF$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:45 SQL> analyze table "REDEF_DEP_ERROR$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "REDEF_OBJECT$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "REFCON$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "REG$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:45 SQL> analyze table "REGISTRY$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "REGISTRY$DATABASE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "REGISTRY$DEPENDENCIES" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:45 SQL> analyze table "REGISTRY$ERROR" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "REGISTRY$HISTORY" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "REGISTRY$LOG" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "REGISTRY$NONSYS_INV_OBJS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "REGISTRY$PROGRESS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "REGISTRY$SCHEMAS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "REGISTRY$SYS_INV_OBJS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "REG_SNAP$" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:45 SQL> analyze table "RESOURCE_CAPABILITY$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RESOURCE_CATEGORY$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "RESOURCE_CONSUMER_GROUP$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RESOURCE_COST$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "RESOURCE_GROUP_MAPPING$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RESOURCE_INSTANCE_CAPABILITY$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RESOURCE_IO_CALIBRATE$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RESOURCE_MAP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RESOURCE_MAPPING_PRIORITY$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RESOURCE_PLAN$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RESOURCE_PLAN_DIRECTIVE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RESOURCE_STORAGE_POOL_MAPPING$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RESULT$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:45 SQL> analyze table "RGCHILD$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RGROUP$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RLS$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RLS_CTX$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RLS_GRP$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RLS_SC$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RULE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RULESET$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RULE_EC$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RULE_MAP$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RULE_SET$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "RULE_SET_EE$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RULE_SET_FOB$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RULE_SET_IEUAC$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RULE_SET_IOT$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:45 SQL> analyze table "RULE_SET_NL$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RULE_SET_PR$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RULE_SET_RDEP$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RULE_SET_RE$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "RULE_SET_ROP$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "RULE_SET_ROR$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RULE_SET_TE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "RULE_SET_VE$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:45 SQL> analyze table "SAM_SPARSITY_ADVICE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:45 SQL> analyze table "SCHEDULER$_CHAIN" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:45 SQL> analyze table "SCHEDULER$_CLASS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SCHEDULER$_CREDENTIAL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_DESTINATIONS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:46 SQL> analyze table "SCHEDULER$_EVENT_LOG" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SCHEDULER$_EVENT_QTAB" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_EVTQ_SUB" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:46 SQL> analyze table "SCHEDULER$_FILEWATCHER_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_FILEWATCHER_RESEND" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_FILE_WATCHER" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_GLOBAL_ATTRIBUTE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_JOB" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:46 SQL> analyze table "SCHEDULER$_JOB_ARGUMENT" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:46 SQL> analyze table "SCHEDULER$_JOB_DESTINATIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SCHEDULER$_JOB_RUN_DETAILS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_LIGHTWEIGHT_JOB" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_LWJOB_OBJ" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_NOTIFICATION" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_PROGRAM" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_PROGRAM_ARGUMENT" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_REMDB_JOBQTAB" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:46 SQL> analyze table "SCHEDULER$_REMOTE_DBS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_REMOTE_JOB_STATE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_RJOB_SRC_DB_INFO" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_SAVED_OIDS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SCHEDULER$_SCHEDULE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_SRCQ_INFO" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SCHEDULER$_SRCQ_MAP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_STEP" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SCHEDULER$_STEP_STATE" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:46 SQL> analyze table "SCHEDULER$_WINDOW" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_WINDOW_DETAILS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:46 SQL> analyze table "SCHEDULER$_WINDOW_GROUP" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SCHEDULER$_WINGRP_MEMBER" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SCHEDULER_FILEWATCHER_QT" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SECOBJ$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SEG$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SEQ$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:46 SQL> analyze table "SERVICE$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:46 SQL> analyze table "SETTINGS$" validate structure cascade;
+Elapsed: 00:00:00.58
+10:32:47 SQL> analyze table "SLOG$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:47 SQL> analyze table "SMB$CONFIG" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:47 SQL> analyze table "SMON_SCN_TIME" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:47 SQL> analyze table "SNAP$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:47 SQL> analyze table "SNAP_COLMAP$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:47 SQL> analyze table "SNAP_LOADERTIME$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:47 SQL> analyze table "SNAP_LOGDEP$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:47 SQL> analyze table "SNAP_OBJCOL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:47 SQL> analyze table "SNAP_REFOP$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:47 SQL> analyze table "SNAP_REFTIME$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:47 SQL> analyze table "SNAP_SITE$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:47 SQL> analyze table "SNAP_XCMT$" validate structure cascade;
+Elapsed: 00:00:00.06
+10:32:47 SQL> analyze table "SOURCE$" validate structure cascade;
+Elapsed: 00:00:04.71
+10:32:51 SQL> analyze table "SQL$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:52 SQL> analyze table "SQL$TEXT" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "SQLERROR$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "SQLLOG$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "SQLOBJ$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "SQLOBJ$AUXDATA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "SQLOBJ$DATA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "SQL_TK_COLL_CHK$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:52 SQL> analyze table "SQL_TK_REF_CHK$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "SQL_TK_ROW_CHK$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "SQL_TK_TAB_DESC$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "SQL_VERSION$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "SSCR_CAP$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:52 SQL> analyze table "SSCR_RES$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STATS_TARGET$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STMT_AUDIT_OPTION_MAP" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:52 SQL> analyze table "STREAMS$_APPLY_MILESTONE" validate structure cascade;
+Elapsed: 00:00:00.08
+10:32:52 SQL> analyze table "STREAMS$_APPLY_PROCESS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_APPLY_PROGRESS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_APPLY_SPILL_MESSAGES" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:52 SQL> analyze table "STREAMS$_APPLY_SPILL_MSGS_PART" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.07
+10:32:52 SQL> analyze table "STREAMS$_APPLY_SPILL_TXN" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_APPLY_SPILL_TXN_LIST" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_CAPTURE_PROCESS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_CAPTURE_SERVER" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT_EVENT_IN" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT_IN" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT_LINK" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT_LINK_IN" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT_PROP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT_PROP_IN" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT_STAT_IN" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_COMPONENT_STAT_OUT" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_DATABASE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_DEF_PROC" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_DEST_OBJS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_DEST_OBJ_COLS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_EXTRA_ATTRS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_INTERNAL_TRANSFORM" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_KEY_COLUMNS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_LOCAL_ACTIONS_IN" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_LOCAL_FINDINGS_IN" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_LOCAL_RECS_IN" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_MESSAGE_CONSUMERS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_MESSAGE_RULES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_PATH_BOTTLENECK_OUT" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_PATH_STAT_OUT" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_PREPARE_DDL" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:52 SQL> analyze table "STREAMS$_PREPARE_OBJECT" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_PRIVILEGED_USER" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "STREAMS$_PROCESS_PARAMS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_PROPAGATION_PROCESS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_RULES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_SPLIT_MERGE" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:52 SQL> analyze table "STREAMS$_STMT_HANDLERS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:52 SQL> analyze table "STREAMS$_STMT_HANDLER_STMTS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "SUBCOLTYPE$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:52 SQL> analyze table "SUBPARTCOL$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:52 SQL> analyze table "SUM$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:52 SQL> analyze table "SUMAGG$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:52 SQL> analyze table "SUMDELTA$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:52 SQL> analyze table "SUMDEP$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:53 SQL> analyze table "SUMDETAIL$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:53 SQL> analyze table "SUMINLINE$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:53 SQL> analyze table "SUMJOIN$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:53 SQL> analyze table "SUMKEY$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:53 SQL> analyze table "SUMPARTLOG$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:53 SQL> analyze table "SUMPRED$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:53 SQL> analyze table "SUMQB$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:53 SQL> analyze table "SUPEROBJ$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:53 SQL> analyze table "SYN$" validate structure cascade;
+Elapsed: 00:00:00.67
+10:32:53 SQL> analyze table "SYS$SERVICE_METRICS_TAB" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:53 SQL> analyze table "SYSAUTH$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:53 SQL> analyze table "SYSTEM_PRIVILEGE_MAP" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:53 SQL> analyze table "SYS_FBA_BARRIERSCN" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:53 SQL> analyze table "SYS_FBA_DL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:53 SQL> analyze table "SYS_FBA_FA" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:53 SQL> analyze table "SYS_FBA_PARTITIONS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:53 SQL> analyze table "SYS_FBA_TRACKEDTABLES" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:53 SQL> analyze table "SYS_FBA_TSFA" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:53 SQL> analyze table "SYS_FBA_USERS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:53 SQL> analyze table "TAB$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:53 SQL> analyze table "TABCOMPART$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:54 SQL> analyze table "TABLE_PRIVILEGE_MAP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "TABPART$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:54 SQL> analyze table "TABSUBPART$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:54 SQL> analyze table "TAB_STATS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:54 SQL> analyze table "TRANSACTION_BACKOUT_REPORT$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:54 SQL> analyze table "TRANSACTION_BACKOUT_STATE$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:54 SQL> analyze table "TRANSFORMATIONS$" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:54 SQL> analyze table "TRANSIENT_IOT$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "TRIGGER$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:54 SQL> analyze table "TRIGGERCOL$" validate structure cascade;
+Elapsed: 00:00:00.07
+10:32:54 SQL> analyze table "TRIGGERDEP$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "TRIGGERJAVAC$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "TRIGGERJAVAF$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "TRIGGERJAVAM$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "TRIGGERJAVAS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "TRUSTED_LIST$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:54 SQL> analyze table "TS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "TSM_DST$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:54 SQL> analyze table "TSM_SRC$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "TSQ$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "TTS_ERROR$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "TTS_TBS$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "TTS_USR$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "TYPE$" validate structure cascade;
+Elapsed: 00:00:00.07
+10:32:54 SQL> analyze table "TYPED_VIEW$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:54 SQL> analyze table "TYPEHIERARCHY$" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:54 SQL> analyze table "TYPE_MISC$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:54 SQL> analyze table "UET$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "UGROUP$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "UNDO$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "USER$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "USER_ASTATUS_MAP" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "USER_HISTORY$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "USTATS$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:54 SQL> analyze table "UTL_RECOMP_COMPILED" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "UTL_RECOMP_ERRORS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "UTL_RECOMP_SORTED" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "VIEW$" validate structure cascade;
+Elapsed: 00:00:00.32
+10:32:54 SQL> analyze table "VIEWCON$" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:54 SQL> analyze table "VIEWTRCOL$" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "VTABLE$" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:54 SQL> analyze table "WALLET$_ACL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:54 SQL> analyze table "WARNING_SETTINGS$" validate structure cascade;
+Elapsed: 00:00:00.20
+10:32:55 SQL> analyze table "WRH$_ACTIVE_SESSION_HISTORY" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.18
+10:32:55 SQL> analyze table "WRH$_ACTIVE_SESSION_HISTORY_BL" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:55 SQL> analyze table "WRH$_BG_EVENT_SUMMARY" validate structure cascade;
+Elapsed: 00:00:00.13
+10:32:55 SQL> analyze table "WRH$_BUFFERED_QUEUES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:55 SQL> analyze table "WRH$_BUFFERED_SUBSCRIBERS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:55 SQL> analyze table "WRH$_BUFFER_POOL_STATISTICS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:55 SQL> analyze table "WRH$_CLUSTER_INTERCON" validate structure cascade;
+Elapsed: 00:00:00.19
+10:32:55 SQL> analyze table "WRH$_COMP_IOSTAT" validate structure cascade;
+Elapsed: 00:00:00.06
+10:32:55 SQL> analyze table "WRH$_CR_BLOCK_SERVER" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:55 SQL> analyze table "WRH$_CURRENT_BLOCK_SERVER" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:55 SQL> analyze table "WRH$_DATAFILE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:55 SQL> analyze table "WRH$_DB_CACHE_ADVICE" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.17
+10:32:55 SQL> analyze table "WRH$_DB_CACHE_ADVICE_BL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:56 SQL> analyze table "WRH$_DISPATCHER" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:56 SQL> analyze table "WRH$_DLM_MISC" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.03
+10:32:56 SQL> analyze table "WRH$_DLM_MISC_BL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:56 SQL> analyze table "WRH$_DYN_REMASTER_STATS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:56 SQL> analyze table "WRH$_ENQUEUE_STAT" validate structure cascade;
+Elapsed: 00:00:00.23
+10:32:56 SQL> analyze table "WRH$_EVENT_HISTOGRAM" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.98
+10:32:57 SQL> analyze table "WRH$_EVENT_HISTOGRAM_BL" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:57 SQL> analyze table "WRH$_EVENT_NAME" validate structure cascade;
+Elapsed: 00:00:00.05
+10:32:57 SQL> analyze table "WRH$_FILEMETRIC_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:57 SQL> analyze table "WRH$_FILESTATXS" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.13
+10:32:57 SQL> analyze table "WRH$_FILESTATXS_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:57 SQL> analyze table "WRH$_IC_CLIENT_STATS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:57 SQL> analyze table "WRH$_IC_DEVICE_STATS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:57 SQL> analyze table "WRH$_INSTANCE_RECOVERY" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:57 SQL> analyze table "WRH$_INST_CACHE_TRANSFER" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.07
+10:32:57 SQL> analyze table "WRH$_INST_CACHE_TRANSFER_BL" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:57 SQL> analyze table "WRH$_INTERCONNECT_PINGS" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.04
+10:32:57 SQL> analyze table "WRH$_INTERCONNECT_PINGS_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:57 SQL> analyze table "WRH$_IOSTAT_DETAIL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:32:57 SQL> analyze table "WRH$_IOSTAT_FILETYPE" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:57 SQL> analyze table "WRH$_IOSTAT_FILETYPE_NAME" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:57 SQL> analyze table "WRH$_IOSTAT_FUNCTION" validate structure cascade;
+Elapsed: 00:00:00.04
+10:32:57 SQL> analyze table "WRH$_IOSTAT_FUNCTION_NAME" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:57 SQL> analyze table "WRH$_JAVA_POOL_ADVICE" validate structure cascade;
+Elapsed: 00:00:00.06
+10:32:57 SQL> analyze table "WRH$_LATCH" validate structure cascade into invalid_rows;
+Elapsed: 00:00:01.11
+10:32:59 SQL> analyze table "WRH$_LATCH_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:59 SQL> analyze table "WRH$_LATCH_CHILDREN" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.05
+10:32:59 SQL> analyze table "WRH$_LATCH_CHILDREN_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:59 SQL> analyze table "WRH$_LATCH_MISSES_SUMMARY" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.17
+10:32:59 SQL> analyze table "WRH$_LATCH_MISSES_SUMMARY_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:59 SQL> analyze table "WRH$_LATCH_NAME" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:59 SQL> analyze table "WRH$_LATCH_PARENT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.02
+10:32:59 SQL> analyze table "WRH$_LATCH_PARENT_BL" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:59 SQL> analyze table "WRH$_LIBRARYCACHE" validate structure cascade;
+Elapsed: 00:00:00.09
+10:32:59 SQL> analyze table "WRH$_LOG" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:59 SQL> analyze table "WRH$_MEMORY_RESIZE_OPS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:59 SQL> analyze table "WRH$_MEMORY_TARGET_ADVICE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:59 SQL> analyze table "WRH$_MEM_DYNAMIC_COMP" validate structure cascade;
+Elapsed: 00:00:00.09
+10:32:59 SQL> analyze table "WRH$_METRIC_NAME" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:59 SQL> analyze table "WRH$_MTTR_TARGET_ADVICE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:59 SQL> analyze table "WRH$_MUTEX_SLEEP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:59 SQL> analyze table "WRH$_MVPARAMETER" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.33
+10:32:59 SQL> analyze table "WRH$_MVPARAMETER_BL" validate structure cascade;
+Elapsed: 00:00:00.03
+10:32:59 SQL> analyze table "WRH$_OPTIMIZER_ENV" validate structure cascade;
+Elapsed: 00:00:00.00
+10:32:59 SQL> analyze table "WRH$_OSSTAT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.10
+10:32:59 SQL> analyze table "WRH$_OSSTAT_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:59 SQL> analyze table "WRH$_OSSTAT_NAME" validate structure cascade;
+Elapsed: 00:00:00.01
+10:32:59 SQL> analyze table "WRH$_PARAMETER" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.82
+10:33:00 SQL> analyze table "WRH$_PARAMETER_BL" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:00 SQL> analyze table "WRH$_PARAMETER_NAME" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:00 SQL> analyze table "WRH$_PERSISTENT_QMN_CACHE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:00 SQL> analyze table "WRH$_PERSISTENT_QUEUES" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:00 SQL> analyze table "WRH$_PERSISTENT_SUBSCRIBERS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:00 SQL> analyze table "WRH$_PGASTAT" validate structure cascade;
+Elapsed: 00:00:00.07
+10:33:01 SQL> analyze table "WRH$_PGA_TARGET_ADVICE" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:01 SQL> analyze table "WRH$_PLAN_OPERATION_NAME" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:01 SQL> analyze table "WRH$_PLAN_OPTION_NAME" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:01 SQL> analyze table "WRH$_PROCESS_MEMORY_SUMMARY" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:01 SQL> analyze table "WRH$_RESOURCE_LIMIT" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:01 SQL> analyze table "WRH$_ROWCACHE_SUMMARY" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.23
+10:33:01 SQL> analyze table "WRH$_ROWCACHE_SUMMARY_BL" validate structure cascade;
+Elapsed: 00:00:00.08
+10:33:01 SQL> analyze table "WRH$_RSRC_CONSUMER_GROUP" validate structure cascade;
+Elapsed: 00:00:00.13
+10:33:01 SQL> analyze table "WRH$_RSRC_PLAN" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:01 SQL> analyze table "WRH$_RULE_SET" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:01 SQL> analyze table "WRH$_SEG_STAT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.33
+10:33:01 SQL> analyze table "WRH$_SEG_STAT_BL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:01 SQL> analyze table "WRH$_SEG_STAT_OBJ" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:01 SQL> analyze table "WRH$_SERVICE_NAME" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:01 SQL> analyze table "WRH$_SERVICE_STAT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.31
+10:33:02 SQL> analyze table "WRH$_SERVICE_STAT_BL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:02 SQL> analyze table "WRH$_SERVICE_WAIT_CLASS" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.12
+10:33:02 SQL> analyze table "WRH$_SERVICE_WAIT_CLASS_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:02 SQL> analyze table "WRH$_SESSMETRIC_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:02 SQL> analyze table "WRH$_SESS_TIME_STATS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:02 SQL> analyze table "WRH$_SGA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:02 SQL> analyze table "WRH$_SGASTAT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.12
+10:33:02 SQL> analyze table "WRH$_SGASTAT_BL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:02 SQL> analyze table "WRH$_SGA_TARGET_ADVICE" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:02 SQL> analyze table "WRH$_SHARED_POOL_ADVICE" validate structure cascade;
+Elapsed: 00:00:00.12
+10:33:02 SQL> analyze table "WRH$_SHARED_SERVER_SUMMARY" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:02 SQL> analyze table "WRH$_SQLCOMMAND_NAME" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:02 SQL> analyze table "WRH$_SQLSTAT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.86
+10:33:03 SQL> analyze table "WRH$_SQLSTAT_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:03 SQL> analyze table "WRH$_SQLTEXT" validate structure cascade;
+Elapsed: 00:00:00.08
+10:33:03 SQL> analyze table "WRH$_SQL_BIND_METADATA" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:03 SQL> analyze table "WRH$_SQL_PLAN" validate structure cascade;
+Elapsed: 00:00:00.25
+10:33:03 SQL> analyze table "WRH$_SQL_SUMMARY" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:03 SQL> analyze table "WRH$_SQL_WORKAREA_HISTOGRAM" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:03 SQL> analyze table "WRH$_STAT_NAME" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:03 SQL> analyze table "WRH$_STREAMS_APPLY_SUM" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:03 SQL> analyze table "WRH$_STREAMS_CAPTURE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:03 SQL> analyze table "WRH$_STREAMS_POOL_ADVICE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:03 SQL> analyze table "WRH$_SYSMETRIC_HISTORY" validate structure cascade;
+Elapsed: 00:00:01.43
+10:33:05 SQL> analyze table "WRH$_SYSMETRIC_SUMMARY" validate structure cascade;
+Elapsed: 00:00:00.33
+10:33:05 SQL> analyze table "WRH$_SYSSTAT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.91
+10:33:06 SQL> analyze table "WRH$_SYSSTAT_BL" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:06 SQL> analyze table "WRH$_SYSTEM_EVENT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.22
+10:33:06 SQL> analyze table "WRH$_SYSTEM_EVENT_BL" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:06 SQL> analyze table "WRH$_SYS_TIME_MODEL" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.09
+10:33:07 SQL> analyze table "WRH$_SYS_TIME_MODEL_BL" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:07 SQL> analyze table "WRH$_TABLESPACE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRH$_TABLESPACE_SPACE_USAGE" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:07 SQL> analyze table "WRH$_TABLESPACE_STAT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.05
+10:33:07 SQL> analyze table "WRH$_TABLESPACE_STAT_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRH$_TEMPFILE" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRH$_TEMPSTATXS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:07 SQL> analyze table "WRH$_THREAD" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRH$_TOPLEVELCALL_NAME" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRH$_UNDOSTAT" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:07 SQL> analyze table "WRH$_WAITCLASSMETRIC_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRH$_WAITSTAT" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.03
+10:33:07 SQL> analyze table "WRH$_WAITSTAT_BL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_ACTIONS" validate structure cascade;
+Elapsed: 00:00:00.08
+10:33:07 SQL> analyze table "WRI$_ADV_ADDM_FDG" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:07 SQL> analyze table "WRI$_ADV_ADDM_INST" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:07 SQL> analyze table "WRI$_ADV_ADDM_TASKS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:07 SQL> analyze table "WRI$_ADV_ASA_RECO_DATA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_DEFINITIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_DEF_EXEC_TYPES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_DEF_PARAMETERS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_DIRECTIVE_DEFS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:07 SQL> analyze table "WRI$_ADV_DIRECTIVE_INSTANCES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_DIRECTIVE_META" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_EXECUTIONS" validate structure cascade;
+Elapsed: 00:00:00.09
+10:33:07 SQL> analyze table "WRI$_ADV_EXEC_PARAMETERS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_FINDINGS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_INST_FDG" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_JOURNAL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_MESSAGE_GROUPS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_OBJECTS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_OBJSPACE_CHROW_DATA" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:07 SQL> analyze table "WRI$_ADV_OBJSPACE_TREND_DATA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_PARAMETERS" validate structure cascade;
+Elapsed: 00:00:00.06
+10:33:07 SQL> analyze table "WRI$_ADV_RATIONALE" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_RECOMMENDATIONS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_REC_ACTIONS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_SQLA_COLVOL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:07 SQL> analyze table "WRI$_ADV_SQLA_FAKE_REG" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:07 SQL> analyze table "WRI$_ADV_SQLA_MAP" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:07 SQL> analyze table "WRI$_ADV_SQLA_STMTS" validate structure cascade;
+Elapsed: 00:00:00.09
+10:33:07 SQL> analyze table "WRI$_ADV_SQLA_SUM" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:08 SQL> analyze table "WRI$_ADV_SQLA_TABLES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:08 SQL> analyze table "WRI$_ADV_SQLA_TABVOL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_ADV_SQLA_TMP" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:08 SQL> analyze table "WRI$_ADV_SQLT_BINDS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:08 SQL> analyze table "WRI$_ADV_SQLT_PLANS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:08 SQL> analyze table "WRI$_ADV_SQLT_PLAN_HASH" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:08 SQL> analyze table "WRI$_ADV_SQLT_PLAN_STATS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_ADV_SQLT_RTN_PLAN" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_ADV_SQLT_STATISTICS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_ADV_SQLW_COLVOL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:08 SQL> analyze table "WRI$_ADV_SQLW_STMTS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:08 SQL> analyze table "WRI$_ADV_SQLW_SUM" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_ADV_SQLW_TABLES" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:08 SQL> analyze table "WRI$_ADV_SQLW_TABVOL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_ADV_TASKS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:08 SQL> analyze table "WRI$_ADV_USAGE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:08 SQL> analyze table "WRI$_AGGREGATION_ENABLED" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_ALERT_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:08 SQL> analyze table "WRI$_ALERT_OUTSTANDING" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_ALERT_THRESHOLD" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:08 SQL> analyze table "WRI$_ALERT_THRESHOLD_LOG" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:08 SQL> analyze table "WRI$_DBU_CPU_USAGE" validate structure cascade;
+Elapsed: 00:00:00.05
+10:33:08 SQL> analyze table "WRI$_DBU_CPU_USAGE_SAMPLE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_DBU_FEATURE_METADATA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_DBU_FEATURE_USAGE" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:08 SQL> analyze table "WRI$_DBU_HIGH_WATER_MARK" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_DBU_HWM_METADATA" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:08 SQL> analyze table "WRI$_DBU_USAGE_SAMPLE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:08 SQL> analyze table "WRI$_OPTSTAT_AUX_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:08 SQL> analyze table "WRI$_OPTSTAT_HISTGRM_HISTORY" validate structure cascade;
+Elapsed: 00:00:02.00
+10:33:10 SQL> analyze table "WRI$_OPTSTAT_HISTHEAD_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.70
+10:33:11 SQL> analyze table "WRI$_OPTSTAT_IND_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.07
+10:33:11 SQL> analyze table "WRI$_OPTSTAT_OPR" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:11 SQL> analyze table "WRI$_OPTSTAT_SYNOPSIS$" validate structure cascade into invalid_rows;
+Elapsed: 00:00:00.08
+10:33:11 SQL> analyze table "WRI$_OPTSTAT_SYNOPSIS_HEAD$" validate structure cascade;
+Elapsed: 00:00:00.05
+10:33:11 SQL> analyze table "WRI$_OPTSTAT_SYNOPSIS_PARTGRP" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:11 SQL> analyze table "WRI$_OPTSTAT_TAB_HISTORY" validate structure cascade;
+Elapsed: 00:00:00.05
+10:33:11 SQL> analyze table "WRI$_REPT_COMPONENTS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:11 SQL> analyze table "WRI$_REPT_FILES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRI$_REPT_FORMATS" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:11 SQL> analyze table "WRI$_REPT_REPORTS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRI$_SCH_CONTROL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:11 SQL> analyze table "WRI$_SCH_VOTES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRI$_SEGADV_CNTRLTAB" validate structure cascade;
+Elapsed: 00:00:00.10
+10:33:11 SQL> analyze table "WRI$_SEGADV_OBJLIST" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:11 SQL> analyze table "WRI$_SQLMON_USAGE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:11 SQL> analyze table "WRI$_SQLSET_BINDS" validate structure cascade;
+Elapsed: 00:00:00.07
+10:33:11 SQL> analyze table "WRI$_SQLSET_DEFINITIONS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:11 SQL> analyze table "WRI$_SQLSET_MASK" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRI$_SQLSET_PLANS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:11 SQL> analyze table "WRI$_SQLSET_PLANS_TOCAP" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:11 SQL> analyze table "WRI$_SQLSET_PLAN_LINES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:11 SQL> analyze table "WRI$_SQLSET_REFERENCES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRI$_SQLSET_STATEMENTS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:11 SQL> analyze table "WRI$_SQLSET_STATISTICS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRI$_SQLSET_STS_TOPACK" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRI$_SQLSET_WORKSPACE" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRI$_SQLSET_WORKSPACE_PLANS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:11 SQL> analyze table "WRI$_SQLTEXT_REFCOUNT" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:11 SQL> analyze table "WRI$_TRACING_ENABLED" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:11 SQL> analyze table "WRM$_BASELINE" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:11 SQL> analyze table "WRM$_BASELINE_DETAILS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:11 SQL> analyze table "WRM$_BASELINE_TEMPLATE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:11 SQL> analyze table "WRM$_COLORED_SQL" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRM$_DATABASE_INSTANCE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "WRM$_SNAPSHOT" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "WRM$_SNAPSHOT_DETAILS" validate structure cascade;
+Elapsed: 00:00:00.19
+10:33:12 SQL> analyze table "WRM$_SNAP_ERROR" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRM$_WR_CONTROL" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "WRM$_WR_USAGE" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "WRR$_CAPTURES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "WRR$_CAPTURE_STATS" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "WRR$_CAPTURE_UC_GRAPH" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "WRR$_CONNECTION_MAP" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_FILTERS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAYS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAY_CALL_FILTER" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "WRR$_REPLAY_COMMITS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAY_DATA" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "WRR$_REPLAY_DEP_GRAPH" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAY_DIVERGENCE" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "WRR$_REPLAY_FILTER_SET" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAY_REFERENCES" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "WRR$_REPLAY_SCN_ORDER" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAY_SEQ_DATA" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAY_SQL_BINDS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAY_SQL_TEXT" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "WRR$_REPLAY_STATS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_REPLAY_UC_GRAPH" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "WRR$_SEQUENCE_EXCEPTIONS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "WRR$_WORKLOAD_ATTRIBUTES" validate structure cascade;
+Elapsed: 00:00:00.07
+10:33:12 SQL> analyze table "XDB_INSTALLATION_TAB" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:12 SQL> analyze table "XML_TABNAME2OID_VIEW_TBL" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "XS$PARAMETERS" validate structure cascade;
+Elapsed: 00:00:00.06
+10:33:12 SQL> analyze table "XS$SESSIONS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "XS$SESSION_APPNS" validate structure cascade;
+Elapsed: 00:00:00.00
+10:33:12 SQL> analyze table "XS$SESSION_ROLES" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "XS$VERIFIERS" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:12 SQL> analyze table "XSTREAM$_DDL_CONFLICT_HANDLER" validate structure cascade;
+Elapsed: 00:00:00.04
+10:33:12 SQL> analyze table "XSTREAM$_DML_CONFLICT_COLUMNS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "XSTREAM$_DML_CONFLICT_HANDLER" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:12 SQL> analyze table "XSTREAM$_HANDLE_COLLISIONS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "XSTREAM$_MAP" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:12 SQL> analyze table "XSTREAM$_PARAMETERS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "XSTREAM$_PRIVILEGES" validate structure cascade;
+Elapsed: 00:00:00.03
+10:33:12 SQL> analyze table "XSTREAM$_REPERROR_HANDLER" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "XSTREAM$_SERVER" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "XSTREAM$_SERVER_CONNECTION" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "XSTREAM$_SUBSET_RULES" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> analyze table "XSTREAM$_SYSGEN_OBJS" validate structure cascade;
+Elapsed: 00:00:00.01
+10:33:12 SQL> analyze table "_default_auditing_options_" validate structure cascade;
+Elapsed: 00:00:00.02
+10:33:12 SQL> 
+10:33:12 SQL> set echo off time off timing off

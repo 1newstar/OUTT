@@ -1,0 +1,11 @@
+SQL> show parameter db_name
+
+NAME                                 TYPE        VALUE                          
+------------------------------------ ----------- ------------------------------ 
+db_name                              string      DEV11g                         
+SQL> set lines 500 pages 500
+SQL> shutdown
+Database closed.
+Database dismounted.
+ORACLE instance shut down.
+SQL> spool off;

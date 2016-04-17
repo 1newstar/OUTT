@@ -1,0 +1,7 @@
+WKDIR=/u01/OUTT
+dblist=DEV11g
+OLD_ORA_HOME=/u01/app/oracle/product/11.2.0.3/dbhome
+NEW_ORA_HOME=/u01/app/oracle/product/12.1.0.2/dbhome
+ORACLE_SID=DEV11g
+ELIST=huzaifa.m.zainuddin@accenture.com
+MAILID=huzaifa.m.zainuddin@accenture.com

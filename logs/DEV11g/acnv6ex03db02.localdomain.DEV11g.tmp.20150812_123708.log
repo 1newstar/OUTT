@@ -1,0 +1,752 @@
+
+SQL*Plus: Release 12.1.0.2.0 Production on Wed Aug 12 12:37:44 2015
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+
+SQL> 
+Session altered.
+
+
+Session altered.
+
+
+Session altered.
+
+
+Session altered.
+
+
+TIMESTAMP
+--------------------------------------------------------------------------------
+COMP_TIMESTAMP POSTUP_BGN 2015-08-12 12:37:47
+
+
+TIMESTAMP
+--------------------------------------------------------------------------------
+COMP_TIMESTAMP CATREQ_BGN 2015-08-12 12:37:48
+
+
+PL/SQL procedure successfully completed.
+
+catrequtlmg: b_StatEvt	   = TRUE
+catrequtlmg: b_SelProps    = FALSE
+catrequtlmg: b_UpgradeMode = FALSE
+catrequtlmg: b_InUtlMig    = FALSE
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+TIMESTAMP
+--------------------------------------------------------------------------------
+COMP_TIMESTAMP CATREQ_END 2015-08-12 12:37:48
+
+catuppst: Dropping library DBMS_DDL_INTERNAL_LIB
+
+PL/SQL procedure successfully completed.
+
+catuppst: Dropping view _CURRENT_EDITION_OBJ_MIG
+
+PL/SQL procedure successfully completed.
+
+catuppst: Dropping view _ACTUAL_EDITION_OBJ_MIG
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+This script will migrate the Baseline data on a pre-11g database
+to the 11g database.
+
+...					  ...
+... Completed Moving the Baseline Data	  ...
+...					  ...
+... If there are no Move BL Data messages ...
+... above, then there are no renamed	  ...
+... baseline tables in the system.	  ...
+...					  ...
+...					  ...
+... Completed the Dropping of the	  ...
+... Renamed Baseline Tables		  ...
+...					  ...
+... If there are no Drop Table messages   ...
+... above, then there are no renamed	  ...
+... baseline tables in the system.	  ...
+...					  ...
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+0 rows created.
+
+
+Commit complete.
+
+
+Table created.
+
+
+2 rows created.
+
+
+1 row updated.
+
+
+2 rows updated.
+
+
+0 rows updated.
+
+
+Table dropped.
+
+
+Commit complete.
+
+
+0 rows updated.
+
+
+Commit complete.
+
+
+0 rows updated.
+
+
+Commit complete.
+
+
+0 rows updated.
+
+
+Commit complete.
+
+
+0 rows created.
+
+
+Commit complete.
+
+
+0 rows created.
+
+
+Commit complete.
+
+
+PL/SQL procedure successfully completed.
+
+
+
+
+
+
+PL/SQL procedure successfully completed.
+
+
+
+
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+TIMESTAMP
+--------------------------------------------------------------------------------
+COMP_TIMESTAMP POSTUP_END 2015-08-12 12:38:02
+
+
+Session altered.
+
+SQL> 
+TIMESTAMP
+--------------------------------------------------------------------------------
+COMP_TIMESTAMP UTLRP_BGN  2015-08-12 12:38:02
+
+DOC>   The following PL/SQL block invokes UTL_RECOMP to recompile invalid
+DOC>   objects in the database. Recompilation time is proportional to the
+DOC>   number of invalid objects in the database, so this command may take
+DOC>   a long time to execute on a database with a large number of invalid
+DOC>   objects.
+DOC>
+DOC>   Use the following queries to track recompilation progress:
+DOC>
+DOC>   1. Query returning the number of invalid objects remaining. This
+DOC>	  number should decrease with time.
+DOC>	     SELECT COUNT(*) FROM obj$ WHERE status IN (4, 5, 6);
+DOC>
+DOC>   2. Query returning the number of objects compiled so far. This number
+DOC>	  should increase with time.
+DOC>	     SELECT COUNT(*) FROM UTL_RECOMP_COMPILED;
+DOC>
+DOC>   This script automatically chooses serial or parallel recompilation
+DOC>   based on the number of CPUs available (parameter cpu_count) multiplied
+DOC>   by the number of threads per CPU (parameter parallel_threads_per_cpu).
+DOC>   On RAC, this number is added across all RAC nodes.
+DOC>
+DOC>   UTL_RECOMP uses DBMS_SCHEDULER to create jobs for parallel
+DOC>   recompilation. Jobs are created without instance affinity so that they
+DOC>   can migrate across RAC nodes. Use the following queries to verify
+DOC>   whether UTL_RECOMP jobs are being created and run correctly:
+DOC>
+DOC>   1. Query showing jobs created by UTL_RECOMP
+DOC>	     SELECT job_name FROM dba_scheduler_jobs
+DOC>		WHERE job_name like 'UTL_RECOMP_SLAVE_%';
+DOC>
+DOC>   2. Query showing UTL_RECOMP jobs that are running
+DOC>	     SELECT job_name FROM dba_scheduler_running_jobs
+DOC>		WHERE job_name like 'UTL_RECOMP_SLAVE_%';
+DOC>#
+
+PL/SQL procedure successfully completed.
+
+
+TIMESTAMP
+--------------------------------------------------------------------------------
+COMP_TIMESTAMP UTLRP_END  2015-08-12 12:47:24
+
+DOC> The following query reports the number of objects that have compiled
+DOC> with errors.
+DOC>
+DOC> If the number is higher than expected, please examine the error
+DOC> messages reported with each object (using SHOW ERRORS) to see if they
+DOC> point to system misconfiguration or resource constraints that must be
+DOC> fixed before attempting to recompile these objects.
+DOC>#
+
+OBJECTS WITH ERRORS
+-------------------
+		  0
+
+DOC> The following query reports the number of errors caught during
+DOC> recompilation. If this number is non-zero, please query the error
+DOC> messages in the table UTL_RECOMP_ERRORS to see if any of these errors
+DOC> are due to misconfiguration or resource constraints that must be
+DOC> fixed before objects can compile successfully.
+DOC>#
+
+ERRORS DURING RECOMPILATION
+---------------------------
+			  0
+
+
+Function created.
+
+
+PL/SQL procedure successfully completed.
+
+
+Function dropped.
+
+...Database user "SYS", database schema "APEX_040200", user# "117" 12:48:02
+...Compiled 0 out of 3014 objects considered, 0 failed compilation 12:48:03
+...271 packages
+...263 package bodies
+...452 tables
+...11 functions
+...16 procedures
+...3 sequences
+...457 triggers
+...1320 indexes
+...211 views
+...0 libraries
+...6 types
+...0 type bodies
+...0 operators
+...0 index types
+...Begin key object existence check 12:48:03
+...Completed key object existence check 12:48:03
+...Setting DBMS Registry 12:48:03
+...Setting DBMS Registry Complete 12:48:03
+...Exiting validate 12:48:03
+
+PL/SQL procedure successfully completed.
+
+SQL> SP2-0310: unable to open file "/u01/app/oracle/cfgtoollogs/DEV11PD/preupgrade/postupgrade_fixups.sql"
+SQL> 
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+
+
+
+CATCTL REPORT = /u01/app/oracle/product/12.1.0.2/dbhome/cfgtoollogs/DEV11g/upgrade/upg_summary.log
+
+PL/SQL procedure successfully completed.
+
+
+
+
+
+
+Oracle Database 12.1 Post-Upgrade Status Tool		08-12-2015 12:48:04
+
+Component				Current 	Version  Elapsed Time
+Name					Status		Number	 HH:MM:SS
+
+Oracle Server				  VALID      12.1.0.2.0  00:18:01
+JServer JAVA Virtual Machine		  VALID      12.1.0.2.0  00:04:28
+Oracle Workspace Manager		  VALID      12.1.0.2.0  00:01:22
+OLAP Analytic Workspace 		  VALID      12.1.0.2.0  00:00:33
+OLAP Catalog			     OPTION OFF      11.2.0.3.0  00:00:00
+Oracle OLAP API 			  VALID      12.1.0.2.0  00:00:33
+Oracle XDK				  VALID      12.1.0.2.0  00:01:02
+Oracle Text				  VALID      12.1.0.2.0  00:01:23
+Oracle XML Database			  VALID      12.1.0.2.0  00:03:02
+Oracle Database Java Packages		  VALID      12.1.0.2.0  00:00:22
+Oracle Multimedia			  VALID      12.1.0.2.0  00:03:32
+Spatial 				  VALID      12.1.0.2.0  00:06:55
+Oracle Application Express		  VALID     4.2.5.00.08  00:28:06
+Final Actions							 00:02:21
+Post Upgrade							 00:00:14
+
+Total Upgrade Time: 01:12:37
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> --
+SQL> -- Update Summary Table with con_name and endtime.
+SQL> --
+SQL> UPDATE sys.registry$upg_summary SET reportname = :ReportName,
+  2  				     con_name = SYS_CONTEXT('USERENV','CON_NAME'),
+  3  				     endtime  = SYSDATE
+  4  	    WHERE con_id = -1;
+
+1 row updated.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> SQL> Rem
+SQL> Rem $Header: rdbms/admin/utluiobj.sql /main/2 2012/07/31 19:37:48 cdilling Exp $
+SQL> Rem
+SQL> Rem utluiobj.sql
+SQL> Rem
+SQL> Rem Copyright (c) 2007, 2012, Oracle and/or its affiliates.
+SQL> Rem All rights reserved.
+SQL> Rem
+SQL> Rem    NAME
+SQL> Rem	 utluiobj.sql - UTility Upgrade Invalid OBJects Tool
+SQL> Rem
+SQL> Rem    DESCRIPTION
+SQL> Rem	 This script provides information about invalid objects after the
+SQL> Rem	 upgrade. It outputs the difference between the invalid objects
+SQL> Rem	 that exist after the upgrade and invalid objects that existed
+SQL> Rem	 prior to upgrade.
+SQL> Rem
+SQL> Rem    NOTES
+SQL> Rem	 Run connected AS SYSDBA to the database that was upgraded
+SQL> Rem	 If there were more than 5000 non-system invalid objects then
+SQL> Rem	 there were too many invalid non-system objects to track.
+SQL> Rem
+SQL> Rem    MODIFIED   (MM/DD/YY)
+SQL> Rem    cdilling	07/17/12 - update version to 12.1
+SQL> Rem    cdilling	12/13/07 - Created
+SQL> Rem
+SQL> 
+SQL> SET SERVEROUTPUT ON
+SQL> 
+SQL> DECLARE
+  2  	type cursor_t  IS REF CURSOR;
+  3  	invobj_cursor	  cursor_t;
+  4  	p_owner 	  VARCHAR2(30);
+  5  	p_obj_name	  VARCHAR2(30);
+  6  	p_obj_type	  VARCHAR2(30);
+  7  	no_such_table  EXCEPTION;
+  8  	PRAGMA exception_init(no_such_table, -942);
+  9  
+ 10  BEGIN
+ 11  	--  Display the list of objects that are invalid after the upgrade
+ 12  	--  but were not invalid prior to upgrade.
+ 13  	--  registry$sys_inv_objs table is created by the pre-upgrade
+ 14  	--  utility file (utlu111i.sql)
+ 15  	DBMS_OUTPUT.PUT_LINE('.');
+ 16  	DBMS_OUTPUT.PUT_LINE(
+ 17  	   'Oracle Database 12.1 Post-Upgrade Invalid Objects Tool ' ||
+ 18  	   TO_CHAR(SYSDATE, 'MM-DD-YYYY HH24:MI:SS'));
+ 19  	DBMS_OUTPUT.PUT_LINE('.');
+ 20  	DBMS_OUTPUT.PUT_LINE(
+ 21  	   'This tool lists post-upgrade invalid objects that were not invalid');
+ 22  	DBMS_OUTPUT.PUT_LINE(
+ 23  	   'prior to upgrade (it ignores pre-existing pre-upgrade invalid objects).');
+ 24  	DBMS_OUTPUT.PUT_LINE('.');
+ 25  	DBMS_OUTPUT.PUT_LINE(
+ 26  	   LPAD('Owner', 32) || LPAD('Object Name',32) || LPAD('Object Type', 32));
+ 27  	DBMS_OUTPUT.PUT_LINE('.');
+ 28  
+ 29  	BEGIN
+ 30  	OPEN invobj_cursor FOR
+ 31  	  'select owner, object_name, object_type
+ 32  	       from dba_objects
+ 33  	       where status !=''VALID'' AND owner in (''SYS'',''SYSTEM'')
+ 34  	  MINUS
+ 35  	  select owner, object_name, object_type
+ 36  	       from registry$sys_inv_objs
+ 37  	  order by owner, object_name';
+ 38  
+ 39  	LOOP
+ 40  	   FETCH invobj_cursor INTO p_owner, p_obj_name, p_obj_type;
+ 41  	   EXIT WHEN invobj_cursor%NOTFOUND;
+ 42  	   DBMS_OUTPUT.PUT_LINE(LPAD(p_owner, 32) || LPAD(p_obj_name, 32) || LPAD(p_obj_type, 32));
+ 43  	END LOOP;
+ 44  	CLOSE invobj_cursor;
+ 45  EXCEPTION
+ 46  	 WHEN no_such_table THEN
+ 47  	    DBMS_OUTPUT.PUT_LINE(
+ 48  	    'The table registry$sys_inv_objs does not exist. The pre-upgrade tool,');
+ 49  	    DBMS_OUTPUT.PUT_LINE(
+ 50  	    'utlu111i.sql, creates and populates registry$sys_inv_objs. To use this');
+ 51  	    DBMS_OUTPUT.PUT_LINE(
+ 52  	    'post-upgrade tool, you must have run utlu111i.sql prior to upgrading');
+ 53  	    DBMS_OUTPUT.PUT_LINE(
+ 54  	    'the database. ');
+ 55  	END;
+ 56  
+ 57  	BEGIN
+ 58  	OPEN invobj_cursor FOR
+ 59  	  'select owner, object_name, object_type
+ 60  	       from dba_objects
+ 61  	       where status !=''VALID'' AND owner NOT in (''SYS'',''SYSTEM'')
+ 62  	  MINUS
+ 63  	  select owner, object_name, object_type
+ 64  	       from registry$nonsys_inv_objs
+ 65  	  order by owner, object_name';
+ 66  	LOOP
+ 67  	   FETCH invobj_cursor INTO p_owner, p_obj_name, p_obj_type;
+ 68  	   EXIT WHEN invobj_cursor%NOTFOUND;
+ 69  	   DBMS_OUTPUT.PUT_LINE(LPAD(p_owner, 32) || LPAD(p_obj_name, 32) || LPAD(p_obj_type, 32));
+ 70  	END LOOP;
+ 71  	CLOSE invobj_cursor;
+ 72  
+ 73  EXCEPTION
+ 74  	 WHEN no_such_table THEN NULL;
+ 75  	END;
+ 76  
+ 77  END;
+ 78  
+ 79  /
+.
+Oracle Database 12.1 Post-Upgrade Invalid Objects Tool 08-12-2015 12:48:05
+.
+This tool lists post-upgrade invalid objects that were not invalid
+prior to upgrade (it ignores pre-existing pre-upgrade invalid objects).
+.
+			   Owner		     Object Name
+     Object Type
+.
+
+PL/SQL procedure successfully completed.
+
+SQL> 
+SQL> SET SERVEROUTPUT OFF
+SQL> SQL> set echo off head off
+
+========================================================================================
+STEP 1. Checking Oracle Database Vault Status (TRUE/FALSE)
+
+DOC>  select parameter, value from v$option where parameter =  'Oracle Database Vault';
+DOC>  select * from v$encryption_wallet;
+DOC>#
+
+Oracle Database Vault : FALSE  .................................................[ OK ]
+
+Wallet Status  : NOT_AVAILABLE	................................................[ OK ]
+
+========================================================================================
+
+STEP 2. Checking TIMESTAMP WITH TIMEZONE Data type
+
+DOC>   select tz_version from registry$database;
+DOC>#
+
+TZ_VERSION : 14  ...............................................................[ OK ]
+
+========================================================================================
+STEP 3. Checking SYS, SYSTEM users default tablespace
+
+DOC>   select username, default_tablespace from dba_users where username in ('SYS', 'SYSTEM');
+DOC>   alter user SYS default tablespace SYSTEM;
+DOC>   alter user SYSTEM default tablespace SYSTEM;
+DOC>
+DOC>#
+
+USERNAME   DEFAULT_TABLESPACE		  STATUS
+---------- ------------------------------ ----------------------------------------
+SYSTEM	   SYSTEM			  ..................................[ OK ]
+SYS	   SYSTEM			  ..................................[ OK ]
+
+
+========================================================================================
+STEP 4. List all Controlfiles, Datafiles, Tempfiles, Redo Log Files
+
+
+Control Files
+------------------------------------------------------------------------------------------
+
+/u01/app/oracle/fast_recovery_area/DEV11g/control02.ctl
+/u01/app/oracle/oradata/DEV11g/control01.ctl
+
+Total Number of Controlfiles : 2  ..............................................[ OK ]
+
+
+Data Files
+------------------------------------------------------------------------------------------
+
+/u01/app/oracle/oradata/DEV11g/example01.dbf
+/u01/app/oracle/oradata/DEV11g/outt01.dbf
+/u01/app/oracle/oradata/DEV11g/sysaux01.dbf
+/u01/app/oracle/oradata/DEV11g/system01.dbf
+/u01/app/oracle/oradata/DEV11g/undotbs01.dbf
+/u01/app/oracle/oradata/DEV11g/users01.dbf
+
+Total Number of Data files : 6	................................................[ OK ]
+
+
+Temp Files
+------------------------------------------------------------------------------------------
+
+/u01/app/oracle/oradata/DEV11g/temp01.dbf
+
+Total Number of Temp files : 1	................................................[ OK ]
+
+
+Redo Log Files
+------------------------------------------------------------------------------------------
+
+     1 /u01/app/oracle/oradata/DEV11g/redo01.log
+     2 /u01/app/oracle/oradata/DEV11g/redo02.log
+     3 /u01/app/oracle/oradata/DEV11g/redo03.log
+
+Total Number of Redo Log files : 3  ............................................[ OK ]
+
+
+
+========================================================================================
+STEP 5. Checking just AUD$ count to estimate the delay.  No action by Automation Script
+
+DOC>   select count(*) from aud$;
+DOC>   select owner, table_name from dba_tables where table_name = 'AUD$';
+DOC>#
+
+
+AUD$ Row Count : 34  ...........................................................[ OK ]
+
+AUD$ owned by : SYS  ...................
+........................................
+[ OK ]
+
+
+========================================================================================
+STEP 6. Invalid Object Status Count
+
+Running utlrp.sql Before getting INVALID object count ...
+
+DOC>   @?/rdbms/admin/utlrp
+DOC>
+DOC>   select owner,object_name,object_type from dba_objects where
+DOC>	  owner in ('SYSMAN','CTXSYS','ORDSYS','MDSYS','EXFSYS','WKSYS','WKPROXY','WK_TEST','OLAPSYS','OUTLIN'
+DOC>	  ,'TSMSYS','FLOWS_FILES','SI_INFORMTN_SCHEMA','ORACLE_OCM','ORDPLUGINS','ORDDATA','DBSNMP')
+DOC>	  and status='INVALID' order by 1,2;
+DOC>#
+
+COMP_TIMESTAMP UTLRP_BGN  2015-08-12 12:48:05
+DOC>   The following PL/SQL block invokes UTL_RECOMP to recompile invalid
+DOC>   objects in the database. Recompilation time is proportional to the
+DOC>   number of invalid objects in the database, so this command may take
+DOC>   a long time to execute on a database with a large number of invalid
+DOC>   objects.
+DOC>
+DOC>   Use the following queries to track recompilation progress:
+DOC>
+DOC>   1. Query returning the number of invalid objects remaining. This
+DOC>	  number should decrease with time.
+DOC>	     SELECT COUNT(*) FROM obj$ WHERE status IN (4, 5, 6);
+DOC>
+DOC>   2. Query returning the number of objects compiled so far. This number
+DOC>	  should increase with time.
+DOC>	     SELECT COUNT(*) FROM UTL_RECOMP_COMPILED;
+DOC>
+DOC>   This script automatically chooses serial or parallel recompilation
+DOC>   based on the number of CPUs available (parameter cpu_count) multiplied
+DOC>   by the number of threads per CPU (parameter parallel_threads_per_cpu).
+DOC>   On RAC, this number is added across all RAC nodes.
+DOC>
+DOC>   UTL_RECOMP uses DBMS_SCHEDULER to create jobs for parallel
+DOC>   recompilation. Jobs are created without instance affinity so that they
+DOC>   can migrate across RAC nodes. Use the following queries to verify
+DOC>   whether UTL_RECOMP jobs are being created and run correctly:
+DOC>
+DOC>   1. Query showing jobs created by UTL_RECOMP
+DOC>	     SELECT job_name FROM dba_scheduler_jobs
+DOC>		WHERE job_name like 'UTL_RECOMP_SLAVE_%';
+DOC>
+DOC>   2. Query showing UTL_RECOMP jobs that are running
+DOC>	     SELECT job_name FROM dba_scheduler_running_jobs
+DOC>		WHERE job_name like 'UTL_RECOMP_SLAVE_%';
+DOC>#
+
+COMP_TIMESTAMP UTLRP_END  2015-08-12 12:48:08
+DOC> The following query reports the number of objects that have compiled
+DOC> with errors.
+DOC>
+DOC> If the number is higher than expected, please examine the error
+DOC> messages reported with each object (using SHOW ERRORS) to see if they
+DOC> point to system misconfiguration or resource constraints that must be
+DOC> fixed before attempting to recompile these objects.
+DOC>#
+
+		  0
+DOC> The following query reports the number of errors caught during
+DOC> recompilation. If this number is non-zero, please query the error
+DOC> messages in the table UTL_RECOMP_ERRORS to see if any of these errors
+DOC> are due to misconfiguration or resource constraints that must be
+DOC> fixed before objects can compile successfully.
+DOC>#
+
+			  0
+...Database user "SYS", database schema "APEX_040200", user# "117" 12:48:30
+...Compiled 0 out of 3014 objects considered, 0 failed compilation 12:48:31
+...271 packages
+...263 package bodies
+...452 tables
+...11 functions
+...16 procedures
+...3 sequences
+...457 triggers
+...1320 indexes
+...211 views
+...0 libraries
+...6 types
+...0 type bodies
+...0 operators
+...0 index types
+...Begin key object existence check 12:48:31
+...Completed key object existence check 12:48:31
+...Setting DBMS Registry 12:48:31
+...Setting DBMS Registry Complete 12:48:32
+...Exiting validate 12:48:32
+
+Completed utlrp Run.  Retrieving INVALID object list if any ...
+
+
+
+System Invalid Object count : 0  ...............................................[ OK ]
+
+
+
+Total Non-System INVALID object count : 0  .....................................[ OK ]
+
+========================================================================================
+STEP 7. Checking Oracle Components
+
+DOC>  col comp_id format a15
+DOC>  col comp_name format a40
+DOC>  col version format a15
+DOC>  col status format a15
+DOC>  set linesize 120 pagesize 50
+DOC>  select comp_id, comp_name, version, status from dba_registry;
+DOC>#
+
+COMP_ID    COMP_NAME				    VERSION	    STATUS
+---------- ---------------------------------------- --------------- ---------------
+APEX	   Oracle Application Express		    4.2.5.00.08     VALID
+OWB	   OWB					    11.2.0.3.0	    VALID
+AMD	   OLAP Catalog 			    11.2.0.3.0	    OPTION OFF
+SDO	   Spatial				    12.1.0.2.0	    VALID
+ORDIM	   Oracle Multimedia			    12.1.0.2.0	    VALID
+XDB	   Oracle XML Database			    12.1.0.2.0	    VALID
+CONTEXT    Oracle Text				    12.1.0.2.0	    VALID
+OWM	   Oracle Workspace Manager		    12.1.0.2.0	    VALID
+CATALOG    Oracle Database Catalog Views	    12.1.0.2.0	    VALID
+CATPROC    Oracle Database Packages and Types	    12.1.0.2.0	    VALID
+JAVAVM	   JServer JAVA Virtual Machine 	    12.1.0.2.0	    VALID
+XML	   Oracle XDK				    12.1.0.2.0	    VALID
+CATJAVA    Oracle Database Java Packages	    12.1.0.2.0	    VALID
+APS	   OLAP Analytic Workspace		    12.1.0.2.0	    VALID
+XOQ	   Oracle OLAP API			    12.1.0.2.0	    VALID
+
+Overall Component Status  ......................................................[ OK ]
+
+========================================================================================
+STEP 8. Proactive Check - Useful for Parameter Comparision or Status Check
+
+DOC>   col name format a32
+DOC>   col value format a80
+DOC>   set linesize 200 pagesize 50
+DOC>   select name, value from v$parameter;
+DOC>#
+
+NAME				 VALUE
+-------------------------------- ------------------------------------------------------------------------------------------------------------------------
+audit_file_dest 		 /u01/app/oracle/admin/DEV11g/adump
+audit_trail			 DB
+background_core_dump		 partial
+background_dump_dest		 /u01/app/oracle/product/12.1.0.2/dbhome/rdbms/log
+buffer_pool_keep
+buffer_pool_recycle
+cluster_database		 FALSE
+compatible			 11.2.0.0.0
+core_dump_dest			 /u01/app/oracle/diag/rdbms/dev11g/DEV11g/cdump
+db_create_file_dest
+db_create_online_log_dest_1
+db_create_online_log_dest_2
+db_create_online_log_dest_3
+db_file_name_convert
+db_files			 200
+db_name 			 DEV11g
+db_recovery_file_dest		 /u01/app/oracle/fast_recovery_area
+db_recovery_file_dest_size	 10737418240
+db_unique_name			 DEV11g
+instance_name			 DEV11g
+job_queue_processes		 1000
+log_archive_config
+log_archive_dest
+log_archive_dest_1
+log_archive_dest_2
+log_archive_dest_3
+log_archive_dest_4
+log_archive_format		 %t_%s_%r.dbf
+log_file_name_convert
+memory_max_target		 0
+memory_target			 0
+open_cursors			 300
+pga_aggregate_target		 1046478848
+processes			 150
+recyclebin			 on
+sessions			 248
+sga_max_size			 3154116608
+sga_target			 3154116608
+spfile
+statistics_level		 TYPICAL
+undo_management 		 AUTO
+undo_retention			 900
+undo_tablespace 		 UNDOTBS1
+user_dump_dest			 /u01/app/oracle/product/12.1.0.2/dbhome/rdbms/log
+
+
+
+Disconnected from Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options

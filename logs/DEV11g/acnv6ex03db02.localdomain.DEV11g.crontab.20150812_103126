@@ -1,0 +1,2 @@
+30 06 * * * /home/oracle/scripts/rman/rman_full_backup.sh ORCL > /tmp/rman_orcl_full.log 2>&1
+

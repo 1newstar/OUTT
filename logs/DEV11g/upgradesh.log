@@ -1,0 +1,22 @@
+SQL> shutdown immediate
+ERROR:
+ORA-01034: ORACLE not available 
+ORA-27101: shared memory realm does not exist 
+Linux-x86_64 Error: 2: No such file or directory 
+Additional information: 3640 
+Additional information: -1257253225 
+Process ID: 0 
+Session ID: 0 Serial number: 0 
+
+
+SQL> startup upgrade
+ORACLE instance started.
+
+Total System Global Area 3154116608 bytes                                       
+Fixed Size                  2929352 bytes                                       
+Variable Size             721423672 bytes                                       
+Database Buffers         2415919104 bytes                                       
+Redo Buffers               13844480 bytes                                       
+Database mounted.
+Database opened.
+SQL> spool off
